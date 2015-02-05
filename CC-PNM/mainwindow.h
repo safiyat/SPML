@@ -15,14 +15,8 @@ public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
 
-public slots:
-    void on_ufpButton_released();
-    void on_cafButton_released();
-    void on_fpButton_released();
-
 private:
     Ui::MainWindow *ui;
-    int factorToScale(QString text);
 };
 
 #endif // MAINWINDOW_H

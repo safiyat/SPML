@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2015-01-29T10:21:42
+# Project created by QtCreator 2015-02-05T09:22:44
 #
 #-------------------------------------------------
 
@@ -8,7 +8,7 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = FP
+TARGET = CC-PNM
 TEMPLATE = app
 
 
