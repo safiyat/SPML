@@ -70,6 +70,7 @@ void MainWindow::calcCC()
         else
         {
             QString text = ui->plainTextEdit->toPlainText();
+//            text.remove(new QRegularExpression("\"*\""));
             P += text.count("if");
             P += text.count("while");
             P += text.count("switch");

@@ -2,8 +2,8 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include <QFile>
 #include <QFileDialog>
+#include <QRegularExpression>
 
 namespace Ui {
 class MainWindow;
